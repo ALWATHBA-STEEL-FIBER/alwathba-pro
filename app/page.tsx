@@ -382,72 +382,7 @@ className="group bg-slate-900 p-8 transition duration-300 hover:bg-slate-800"
 </div>
 </section>
 
-{/* Contact Section */}
-<section
-id="contact"
-className="scroll-mt-24 bg-orange-500 px-5 py-24 text-slate-950"
->
-<div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2">
-<div>
-<p className="text-xs font-black uppercase tracking-[0.3em]">
-{text.contactLabel}
-</p>
-
-<h2 className="mt-5 text-4xl font-black leading-tight sm:text-5xl">
-{text.contactTitle}
-</h2>
-
-<p className="mt-6 max-w-2xl text-lg leading-8">
-{text.contactText}
-</p>
-</div>
-
-<div className="bg-slate-950 p-8 text-white shadow-2xl sm:p-10">
-<div>
-<p className="text-sm font-semibold text-slate-400">
-{text.emailLabel}
-</p>
-
-<a
-href="mailto:info@alwathbasteelfiber.com"
-className="mt-3 block break-all text-lg font-bold transition duration-300 hover:text-orange-500 sm:text-xl"
->
-info@alwathbasteelfiber.com
-</a>
-</div>
-
-<div className="mt-8 border-t border-white/10 pt-8">
-<p className="text-sm font-semibold text-slate-400">
-{text.phoneLabel}
-</p>
-
-<a
-href="tel:+962799996660"
-dir="ltr"
-className="mt-3 block text-xl font-bold transition hover:text-orange-500"
->
-+962 79 999 6660
-</a>
-
-<a
-href="tel:+962799996668"
-dir="ltr"
-className="mt-2 block text-xl font-bold transition hover:text-orange-500"
->
-+962 79 999 6668
-</a>
-</div>
-
-<a
-href="mailto:info@alwathbasteelfiber.com"
-className="mt-9 inline-block bg-orange-500 px-7 py-4 font-bold text-white transition duration-300 hover:bg-orange-600"
->
-{text.emailButton}
-</a>
-</div>
-</div>
-</section>
-
+<Contact />
 {/* Footer */}
 <footer className="border-t border-white/10 bg-slate-950 px-5 py-8 text-center text-sm text-slate-500">
 © 2026 {text.footer}
