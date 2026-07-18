@@ -1,3 +1,4 @@
+import Contact from "../components/home/Contact";
 "use client";
 import Image from "next/image";
 import { useState } from "react";
