@@ -147,10 +147,10 @@ className="flex min-w-0 items-center gap-3"
 <Image
 src="/logo.png"
 alt="Al Wathba Steel Fiber Logo"
-width={64}
-height={64}
+width={48}
+height={48}
 priority
-className="h-12 w-12 shrink-0 object-contain sm:h-14 sm:w-14"
+className="h-10 w-auto shrink-0 object-contain"
 />
 
 <div className="hidden sm:block">
